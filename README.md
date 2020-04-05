@@ -19,6 +19,9 @@ FROM ubuntu:18.04
 MAINTAINER Ashkan Hadadi <ashkan.hadadi@mehrparsict.com>
 ENV DEBIAN_FRONTEND newt
 
+
+
+
 In our case we are using Ubuntu 14.04 as base image. After these instructions we need to add PostgreSQL package repository and GnuPG public key:
 
 RUN apt-get update && apt-get install -y gnupg2 wget
