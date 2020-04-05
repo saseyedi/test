@@ -4,6 +4,9 @@
 
 - Install Bottle
 
+
+
+
   Assuming that you have a fairly new installation of Python (version 2.5 or higher), you only need to install Bottle in addition to that. Bottle has no other dependencies than Python itself.
 
   You can either manually install Bottle or use Python’s easy_install: `easy_install bottle`
